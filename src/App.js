@@ -1,11 +1,20 @@
 import './App.scss';
 import { useState } from 'react';
 function App() {
-  const [jobs, setJobs] = useState([]);
+  const [jobs, setJobs] = useState(() => {
+    const storage = JSON.parse(localStorage.getItem('jobs'))
+    return storage ?? [];
+  });
   const [job, setJob] = useState('');
 
   const handleClick = ()=> {
-    setJobs(prev => [...prev,job]);
+    setJobs(prev => {
+      const jsonJobs = JSON.stringify([...prev, job]);
+      localStorage.setItem('jobs', jsonJobs);
+
+
+      return [...prev, job]
+    });
     setJob('');
     document.querySelector('.listInput').focus();
   }
