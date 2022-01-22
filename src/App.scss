@@ -1,0 +1,30 @@
+.App{
+
+  input{
+    padding: 5px;
+    margin-right : 5px;
+  }
+  button{
+    padding: 5px;
+
+  }
+  button:hover{
+    transform: scale(0.95);
+
+
+  }
+  li{
+    font-size: 1.2rem;
+    color: white;
+
+  }
+  .listContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    li{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
