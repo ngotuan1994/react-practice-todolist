@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-practice-todolist/static/css/main.8135e778.css",
-    "main.js": "/react-practice-todolist/static/js/main.268e1d23.js",
-    "static/js/787.28ac73ac.chunk.js": "/react-practice-todolist/static/js/787.28ac73ac.chunk.js",
-    "index.html": "/react-practice-todolist/index.html",
-    "main.8135e778.css.map": "/react-practice-todolist/static/css/main.8135e778.css.map",
-    "main.268e1d23.js.map": "/react-practice-todolist/static/js/main.268e1d23.js.map",
-    "787.28ac73ac.chunk.js.map": "/react-practice-todolist/static/js/787.28ac73ac.chunk.js.map"
+    "main.css": "/hreact-practice-todolist.ericngo.dev/static/css/main.8135e778.css",
+    "main.js": "/hreact-practice-todolist.ericngo.dev/static/js/main.e11ed87d.js",
+    "static/js/787.28ac73ac.chunk.js": "/hreact-practice-todolist.ericngo.dev/static/js/787.28ac73ac.chunk.js",
+    "index.html": "/hreact-practice-todolist.ericngo.dev/index.html",
+    "main.8135e778.css.map": "/hreact-practice-todolist.ericngo.dev/static/css/main.8135e778.css.map",
+    "main.e11ed87d.js.map": "/hreact-practice-todolist.ericngo.dev/static/js/main.e11ed87d.js.map",
+    "787.28ac73ac.chunk.js.map": "/hreact-practice-todolist.ericngo.dev/static/js/787.28ac73ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8135e778.css",
-    "static/js/main.268e1d23.js"
+    "static/js/main.e11ed87d.js"
   ]
 }
